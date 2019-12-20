@@ -1,6 +1,8 @@
 # Tournament
 A single-page application that displays tournament's results. Using an API that retrieve the tournament data - results and list of players that are suspected for cheating by the tournament’s organizers.
 
+![app](/app.gif)
+
 ## Features
 - Contain a table to display the results, a row for each player, with 4 columns showing all player's attributes - id, name, level and score.
 
