@@ -1,0 +1,16 @@
+@import "./Style/FilterColumn.css";
+@import "./Style/Pagination.css";
+@import "./Style/TournamentTableResults.css";
+@import "./Style/PlayerRow.css";
+@import "./Style/Tournament.css";
+@import "./Style/SearchInput.css";
+
+
+body {
+  background-color: rgb(194, 222, 247);
+}
+#root {
+  display: flex;
+  justify-content: center;
+}
+

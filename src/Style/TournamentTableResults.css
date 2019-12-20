@@ -1,0 +1,32 @@
+
+table {
+    border-collapse: collapse;
+    background-color: #f0f0f0;
+    border-radius: 3%;
+    width: 120px;
+    table-layout: fixed;
+}
+   
+th {
+    height: 10px;
+}
+  
+tr {
+    height: 40px;
+}
+  
+table, td, th {
+    border-bottom: 1px solid #ddd;
+}
+  
+.table_container {
+    height: 500px;
+}
+
+.users_list {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+  }
+
+  
