@@ -1,7 +1,7 @@
 
 import {useEffect, useState } from 'react';
 
-const PLAYERS_URL = `http://localhost:20000/api/v1/players?`;
+const PLAYERS_URL = `/api/v1/players?`;
 
 function useTournamentResults(levelFilter,freeSearchfilter,pageNumber,playersPerPage) {
     const [total,setTotal] = useState(1);
