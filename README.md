@@ -13,3 +13,17 @@ A single-page application that displays tournament's results. Using an API that 
 - The table have a free search input, to allow the user to type a search phrase. The table displays only these players that the search phrase is a substring of their name, their id, their level or their score.
 
 - Players that are suspected of cheating have a clear table indication - the entire row containing the player’s details is “highlighted”.
+
+## Installing instructions
+You’ll need to have Node >= 8.10.
+
+1. Clone this repo to your local machine.
+1. In the created folder:
+   1. Run ```npm install```
+   1. Place the server files.
+
+## Usage
+1. In the created folder:
+   1. Start the server
+   1. Run ```npm start``` 
+1. Open http://localhost:3000/ to see the app.
