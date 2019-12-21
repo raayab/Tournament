@@ -1,5 +1,5 @@
 import {useEffect, useState } from 'react';
-const SUSPECTS_URL = 'http://localhost:20000/api/v1/players/suspects';
+const SUSPECTS_URL = '/api/v1/players/suspects';
 
 function useSuspects() {
     const [suspects, setSuspects] = useState([]);
