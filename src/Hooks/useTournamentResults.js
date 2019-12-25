@@ -9,7 +9,7 @@ function useTournamentResults(levelFilter,freeSearchfilter,pageNumber,playersPer
     useEffect(() => {
         let start = pageNumber===1 ? 0 : (pageNumber-1) * playersPerPage;
 
-        fetch(PLAYERS_URL+`start=${start}&n=${playersPerPage}&level=${levelFilter}&search=${freeSearchfilter}`)
+        fetch(PLAYERS_URL+`start=${start}&n=${playersPerPage}&level=${levelFilter}&search=${freeSearchfilter.toLowerCase()}`)
         .then(res => { setTotal(res.headers.get('x-total')); return res.json()})
         .then(res=>setPlayers(res))
         .catch(e=>console.log("Get players failed"));
