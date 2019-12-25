@@ -18,12 +18,8 @@ A single-page application that displays tournament's results. Using an API that 
 You’ll need to have Node >= 8.10.
 
 1. Clone this repo to your local machine.
-1. In the created folder:
-   1. Run ```npm install```
-   1. Place the server files.
+1. Place the server file in the build folder.
 
 ## Usage
-1. In the created folder:
-   1. Start the server
-   1. Run ```npm start``` 
-1. Open http://localhost:3000/ to see the app.
+1. Start the server (from the build folder)
+1. Open http://localhost:[port]/ to see the app. where port is the port that the server is listening on.
