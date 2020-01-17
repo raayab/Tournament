@@ -14,7 +14,7 @@ A single-page application that displays tournament's results. Using an API that 
 
 - Players that are suspected of cheating have a clear table indication - the entire row containing the player’s details is “highlighted”.
 
-## installation instructions
+## Installation instructions
 You’ll need to have Node >= 8.10.
 
 1. Clone this repo to your local machine.
